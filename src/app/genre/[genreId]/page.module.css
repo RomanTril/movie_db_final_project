@@ -1,0 +1,19 @@
+.genrePageWrap{
+    padding: 3rem;
+    width: 100%;
+}
+.genrePageName{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 28rem;
+    font-weight: 600;
+    color: rgb(255 255 255 );
+}
+
+.genrePageMovies{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+
+}

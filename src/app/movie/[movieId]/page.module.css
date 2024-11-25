@@ -1,0 +1,93 @@
+.moviePageMain{
+    background-color: rgb(17 17 17);
+    min-height: 100vh;
+}
+
+.moviePageBackground{
+    position: relative;
+    height: 24rem;
+    width: 100%;
+}
+
+.moviePageWrapImage{
+    position: absolute;
+    z-index: 10;
+    top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 2.5rem;
+}
+.moviePageImage{
+    display: flex;
+    height: 20rem;
+    width: 13rem;
+
+}
+
+.moviePageTitleWrap{
+    margin-top: calc(2rem * calc(1));
+    margin-bottom: calc(2rem);
+    width: 50%;
+}
+
+.moviePageTitle{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #cccccc;
+}
+
+.moviePageWrapDate{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    color: #cccccc;
+
+}
+.moviePageDate{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    column-gap: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.moviePageRatingWrap{
+    column-gap: 0.5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.moviePageVote{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.moviePageOverview{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    opacity: 1;
+    color: rgb(209 213 219)
+}
+

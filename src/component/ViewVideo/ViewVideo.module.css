@@ -1,0 +1,31 @@
+.video {
+    margin: 5rem;
+    max-width: 90%;
+
+}
+
+.h2 {
+    color: #f70034;
+    font-size: 3rem;
+    margin: 15px;
+}
+
+.trailer {
+
+    overflow: hidden;
+
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iframe {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0;
+
+}

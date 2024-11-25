@@ -1,0 +1,27 @@
+.header {
+    position:fixed;
+    padding: 1.25rem;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    box-sizing: border-box;
+    box-shadow: #f70034 1px 1px 5px 4px ;
+    top:0;
+    z-index: 20;
+    height: 5rem;
+}
+
+.headerLogo{
+    cursor: pointer;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(229 9 20);
+    position: fixed;
+    opacity: 1;
+    line-height: 2.25rem;
+}
+
+
+.headerLink{
+    text-decoration: none;
+}
